@@ -61,18 +61,16 @@ The model was chosen for its robustness to noise and ability to capture non-line
 
 ## Repository Structure
 
+```
 SpecX_Challenge/
- │
- ├── main.py                        # Training + evaluation
- ├── RandomForestModel.py           # Model training and feature pipeline
- ├── config.py                      # Dataset paths and constants
- ├── PSD_visualizer.py              # Signal visualization tool
- ├── export_model.py                # Model serialization
- │
- ├── SpecXDataCompFinalReport.pdf   # Full technical report
- └── user_reqs.txt                  # Requirements file
-
----
+├── main.py                        # Training + evaluation
+├── RandomForestModel.py           # Model training and feature pipeline
+├── config.py                      # Dataset paths and constants
+├── PSD_visualizer.py             # Signal visualization tool
+├── export_model.py               # Model serialization
+├── SpecXDataCompFinalReport.pdf  # Full technical report
+└── user_reqs.txt                 # Requirements file
+```
 
 ## Key Insight
 
